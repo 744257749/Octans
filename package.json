@@ -1,0 +1,31 @@
+{
+  "name": "octans",
+  "version": "0.1.0",
+  "description": "octans",
+  "main": "index.js",
+  "dependencies": {
+    "cz-conventional-changelog": "^3.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/744257749/octans.git"
+  },
+  "keywords": [
+    "octans"
+  ],
+  "author": "tim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/744257749/octans/issues"
+  },
+  "scripts": {
+    "commit": "git-cz",
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "homepage": "https://github.com/744257749/octans#readme"
+}
